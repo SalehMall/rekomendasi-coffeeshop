@@ -29,14 +29,16 @@ Bagian ini bertindak sebagai "otak" dari aplikasi, menangani pengolahan data, lo
     *   Menangani keamanan akses data dan otentikasi user.
 
 ---
+## ✨ Fitur Unggulan
 
-## ✨ Fitur Utama Sistem
+*   **☕ Katalog Kafe Interaktif**  
+    Menampilkan daftar kurasi coffee shop dengan antarmuka visual (thumbnail), identitas tempat, dan estimasi harga rata-rata yang informatif.
 
-*   **Katalog Coffee Shop:** Menampilkan daftar cafe dengan foto thumbnail, nama, dan harga rata-rata.
-*   **Detail Lengkap:** Informasi mendalam mengenai fasilitas (WiFi, AC, Smoking Area, Parkir).
-*   **Sistem Rating:** Pengguna dapat memberikan bintang dan ulasan tertulis.
-*   **Pencarian & Filter:** Memudahkan pengguna menemukan cafe spesifik dengan cepat.
+*   **🏢 Detail Fasilitas Terpadu**  
+    Menyajikan informasi mendalam terkait penunjang kenyamanan pengunjung, mencakup ketersediaan WiFi, AC, *Smoking Area*, hingga akses parkir.
 
----
+*   **⭐ Sistem Ulasan & Rating**  
+    Fitur interaktif yang memungkinkan pengguna memberikan penilaian bintang dan ulasan tertulis berbasis pengalaman nyata.
 
-**Dibuat oleh Tim Pengembang Rekomendasi Coffee Shop**
+*   **🔍 Pencarian & Filter Cerdas**  
+    Mekanisme pencarian responsif yang memudahkan pengguna menemukan kafe spesifik atau memfilter berdasarkan kebutuhan dengan cepat.

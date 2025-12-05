@@ -1,16 +1,44 @@
-# React + Vite
+# ☕ Sistem Rekomendasi Coffee Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Badge Status](https://img.shields.io/badge/Status-Completed-success)
+![Badge Python](https://img.shields.io/badge/Language-Python-blue)
+![Badge ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 
-Currently, two official plugins are available:
+> **"Bingung mau ngopi di mana? Biarkan sistem ini yang memilihkan untukmu."**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Tentang Proyek
+Proyek ini adalah sistem rekomendasi berbasis **[Content-Based Filtering / Collaborative Filtering]** yang membantu pengguna menemukan Coffee Shop terbaik sesuai preferensi mereka. Sistem ini menganalisis data berdasarkan kriteria seperti [Harga, Rating, Fasilitas WiFi, Lokasi, dan Suasana].
 
-## React Compiler
+Sistem ini dibuat untuk [Tugas Kuliah / Portofolio Pribadi / Skripsi] dengan tujuan mempermudah pencinta kopi menemukan tempat nongkrong yang ideal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Demo & Screenshot
+*(Hapus bagian ini jika belum ada gambar. Tapi sangat disarankan untuk memasukkan screenshot agar menarik!)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Halaman Utama | Hasil Rekomendasi |
+|:---:|:---:|
+| ![Home](link-gambar-home-kamu.png) | ![Result](link-gambar-hasil-kamu.png) |
+
+---
+
+## 🚀 Fitur Utama
+*   🔍 **Pencarian Cerdas:** Mencari coffee shop berdasarkan nama atau lokasi.
+*   🎯 **Rekomendasi Personal:** Memberikan saran tempat mirip dengan coffee shop yang kamu sukai sebelumnya.
+*   🏷️ **Filter Kategori:** Filter berdasarkan harga, rating, dan fasilitas (Outdoor/Indoor).
+*   🗺️ **Visualisasi Data:** Menampilkan persebaran lokasi coffee shop (Opsional).
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+Proyek ini dibangun menggunakan teknologi berikut:
+
+*   **Bahasa Pemrograman:** [Python]
+*   **Web Framework:** [Streamlit / Flask / Django]
+*   **Data Processing:** Pandas, NumPy
+*   **Machine Learning:** Scikit-Learn (Cosine Similarity / KNN)
+*   **Visualisasi:** Matplotlib / Seaborn
+
+---
+
+## 📂 Struktur Folder
